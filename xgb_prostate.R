@@ -1,4 +1,4 @@
-# xgboost for prostate cancer
+# xgboost for prostate cancer metastasis 
 
 setwd('~/Projects/git/xgboost_tutorial')
 
@@ -160,19 +160,3 @@ for (testfold in 1:5){
   if (testfold == 1){shap_test <- res_test$shap_contrib}else{shap_test <- rbind(shap_test, res_test$shap_contrib)}
 }
 pvsm_output(ytest,shap_test,X,outdir,outmarker)
-
-# TCGA Application
-logfilename <- paste0(outdir,'log_all_',outmarker,'.txt')
-resxgb <- pvsm_cvparam(X,
-                       y1,
-                       foldid,
-                       logfilename)
-bst <- pvsm_train(X,
-                  y1,
-                  resxgb$bestparam,
-                  resxgb$bestcvmod$niter)
-
-xgb.save(bst, paste0(outdir,'xgb.pvm.',outmarker,'.all.model'))
-
-res_val <- pvsm_pred_shap(bst,Xval)
-pvsm_output(res_val$ypred,res_val$shap_contrib,Xval,outdir,paste0(outmarker,'_TCGA'))

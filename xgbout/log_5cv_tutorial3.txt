@@ -3,3 +3,8 @@ iter=	2	ncores=	7	max_auc_index=	11	max_auc=	0.7782817	max_depth=	4	eta=	0.03389
 iter=	3	ncores=	7	max_auc_index=	47	max_auc=	0.7745483	max_depth=	5	eta=	0.0386973	subsample=	0.8270928	colsample_bytree=	0.6164874	min_child_weight=	3	max_delta_step=	3	lambda=	0.00370628	alpha=	0.5287341	
 iter=	4	ncores=	7	max_auc_index=	103	max_auc=	0.7842377	max_depth=	3	eta=	0.0423182	subsample=	0.848672	colsample_bytree=	0.8025159	min_child_weight=	3	max_delta_step=	1	lambda=	0.0484929	alpha=	0.5410529	
 iter=	5	ncores=	7	max_auc_index=	8	max_auc=	0.7632205	max_depth=	2	eta=	0.03791359	subsample=	0.9511151	colsample_bytree=	0.5977501	min_child_weight=	1	max_delta_step=	5	lambda=	0.1373077	alpha=	0.457772	
+iter=	1	ncores=	7	max_auc_index=	5	max_auc=	0.775104	max_depth=	5	eta=	0.004111101	subsample=	0.5154498	colsample_bytree=	0.8804711	min_child_weight=	4	max_delta_step=	1	lambda=	0.1521454	alpha=	0.5766278	
+iter=	2	ncores=	7	max_auc_index=	9	max_auc=	0.777327	max_depth=	5	eta=	0.02376189	subsample=	0.5393416	colsample_bytree=	0.6827348	min_child_weight=	1	max_delta_step=	4	lambda=	0.1895575	alpha=	0.5646214	
+iter=	3	ncores=	7	max_auc_index=	7	max_auc=	0.759603	max_depth=	2	eta=	0.00499329	subsample=	0.9727412	colsample_bytree=	0.5747172	min_child_weight=	3	max_delta_step=	1	lambda=	0.06813977	alpha=	0.4269842	
+iter=	4	ncores=	7	max_auc_index=	26	max_auc=	0.7717403	max_depth=	6	eta=	0.0318268	subsample=	0.5807145	colsample_bytree=	0.7825926	min_child_weight=	5	max_delta_step=	4	lambda=	0.09148578	alpha=	0.4166971	
+iter=	5	ncores=	7	max_auc_index=	29	max_auc=	0.7751598	max_depth=	4	eta=	0.002483557	subsample=	0.9568147	colsample_bytree=	0.5919531	min_child_weight=	2	max_delta_step=	2	lambda=	0.02842436	alpha=	0.5851661	

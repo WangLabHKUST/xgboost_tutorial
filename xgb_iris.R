@@ -59,6 +59,6 @@ xgb.pred$prediction = apply(xgb.pred,1,function(x) colnames(xgb.pred)[which.max(
 xgb.pred$label = levels(species)[test.label+1]
 
 # Calculate the final accuracy
-result = sum(xgb.pred$prediction==xgb.pred$label)/nrow(xgb.pred)
+result = sum(xgb.pred$prediction == xgb.pred$label)/nrow(xgb.pred)
 print(paste("Final Accuracy =",sprintf("%1.2f%%", 100*result)))
 
